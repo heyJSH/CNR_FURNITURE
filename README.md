@@ -278,6 +278,112 @@
     <li>한 번에 수정하기 위하여, MyBatis를 이용해 작성한 쿼리를 트랜잭션 처리하도록 했다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/9928b7a8-e445-4023-b076-c020e801b047" alt="작업상세 수정2">
   </ul>
+  <br>
+  <h3>공정관리 - 작업관리 - 자재투입 - 등록</h3>
+  <ul>
+    <li>work의 '작업목록' 위에 있는 [자재투입] 버튼을 누르면, 자재투입등록 모달창이 나타난다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/3e3ffdc3-e638-4df8-ac96-2a20eb42f6b5" alt="자재투입 등록1">
+    <li>'제조LOT번호'를 입력하면, 해당하는 '제조LOT번호'에 따른 '공정번호'를 조회하고, 선택할 수 있다.</li>
+    <li>'공정번호'를 선택하면, '제품번호', '제품명', '계획생산수량'의 내용이 자동으로 채워진다.</li>
+    <li>불러온 '제품번호'에 따른 BOM의 '자재번호' 목록을 조회하고 선택할 수 있다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/5ce67b24-989e-4225-962b-1379a477b6f6" alt="자재투입 등록2">
+    <li>'자재번호'를 선택하면, 해당하는 '자재번호'에 따른 '자재명', '제품1EA별 투입수량', '최소투입수량', '단위'의 내용이 자동으로 채워진다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/7dcfb793-bfea-4858-8b4e-ba5082463107" alt="자재투입 등록3">
+    <li>'투입수량'을 입력하고 [추가] 버튼을 누르면, 추가할 자재투입내역을 미리 보여주는 테이블이 생성된다.</li>
+    <li>만약, '자재투입목록'의 [삭제] 버튼을 누르면, 배열에 저장된 자재투입내역이 삭제된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/b7fc49cc-76d0-4f54-9b6d-0f0ee72578bb" alt="자재투입 등록4">
+    <li>추가된 자재투입목록을 확인 후, [등록] 버튼을 누르면, DB에 저장된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/e5e5dac8-c013-496a-a83b-439d43de2fa8" alt="자재투입 등록5">
+  </ul>
+  <br>
+  <h3>공정관리 - 작업관리 - 자재투입 - 수정</h3>
+  <ul>
+    <li>work의 '자재투입내역' 중, [수정] 버튼을 누르면 '자재투입수정' 모달창이 나타난다.</li>
+    <li>'투입수량'을 수정하고 [수정] 버튼을 누르면, DB에 저장된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/3fb784fb-1651-49d8-afff-275d04a860d9" alt="자재투입 수정1">
+  </ul>
+  <br>
+  <h3>공정관리 - 작업자관리 - 등록/상세 및 수정/삭제</h3>
+  <ul>
+    <li>workerInsert의 '작업자배치' 중, [관리] 버튼을 누르면, '작업자관리' 모달창이 나타난다.</li>
+    <li>작업자 관리 모달창</li>
+    <ul>
+      <li>조회된 데이터를 통해 작업자 등록을 할 수 있다.</li>
+      <li>부서명 선택 시, 부서명에 따라 사원번호 datalist를 조회하고 선택할 수 있다.</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/adfb4477-d961-45b6-be56-a2fe7c61c29b" alt="작업자관리1">
+    </ul>
+  </ul>
+  <br>
+  <h3>공정관리 - 작업자관리 - 등록/상세 및 수정/삭제 - 상세 및 수정</h3>
+  <ul>
+    <li>작업번호에 따른 작업자 정보 조회</li>
+    <ul>
+      <li>등록된 작업자 목록에 조회한 데이터가 나타난다.</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/be74b065-bba7-4632-aee9-8cfbf1bb1111" alt="작업자관리2">
+    </ul>
+    <li>'사원번호'를 입력 후 [추가] 버튼을 누르면, '추가된 작업자 목록'에 입력한 사원번호가 등록된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/25701df8-d700-4a41-97a7-770f8e3d88a0" alt="작업자관리3">
+    <li>'추가된 작업자 목록'은 [등록] 버튼을 누르면, DB에 저장된다.</li>
+    <li>단, 이미 등록된 작업자를 추가하려고 할 경우, 아래와 같이 alert창을 통해 추가를 방지한다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/87e15cf8-8e7d-42fc-aa50-f7ab8d5cc3ce alt="작업자관리4">
+  </ul>
+  <br>
+  <h3>공정관리 - 작업자관리 - 등록/상세 및 수정/삭제 - 삭제</h3>
+  <ul>
+    <li>'등록된 작업자 목록' 중 [삭제] 버튼을 누르면, 작업자 삭제 confirm 창이 뜨고, 작업자가 삭제된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/b06e0d5d-e379-4543-a7d1-171e41ab91dc" alt="작업자관리5">
+  </ul>
+</details>
+
+<details>
+  <summary><b>9. 설비관리 [김다은]</b> (👈 Click)</summary>
+  <br>
+  <h3>설비관리 - 설비정보관리 - 등록</h3>
+  <ul>
+    <li>[추가] 버튼을 누르면, '설비별 체크리스트 정보 추가' 모달창이 나타난다.</li>
+    <li>내용을 입력한 후, [등록] 버튼을 누르면 DB에 저장된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/d9748d8b-c3be-4056-b636-e546c6e70c3f" alt="설비정보 등록1">
+  </ul>
+  <br>
+  <h3>설비관리 - 설비정보관리 - 수정</h3>
+  <ul>
+    <li>원하는 행의 [수정] 버튼을 누르면, '설비수정' 모달창이 나타난다.</li>
+    <li>내용을 수정한 후, [등록] 버튼을 누르면 수정된 내용이 DB에 저장된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/98fedd0f-f28b-4794-a1ea-a379096d8d33" alt="설비정보 수정1">
+  </ul>
+  <br>
+  <h3>설비관리 - 설비체크기준관리 - 등록</h3>
+  <ul>
+    <li>[추가] 버튼을 누르면, '설비별 체크리스트 정보 추가' 모달창이 나타난다.</li>
+    <li>내용을 입력한 후, [등록] 버튼을 누르면 DB에 저장된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/efc7d045-ab5e-427d-b116-9ad92f5fdb36" alt="설비체크기준 등록1">
+  </ul>
+  <br>
+  <h3>설비관리 - 설비 체크리스트 - 등록</h3>
+  <ul>
+    <li>설비를 검색한 후, '체크리스트' 답변을 등록할 수 있다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/a2363b35-e837-4ed2-a642-cd05ffa3afd4" alt="설비체크리스트 등록1">
+  </ul>
+  <br>
+  <h3>설비관리 - 설비관리</h3>
+  <ul>
+    <li>각 버튼을 누르면, ajax를 사용해 서버로 데이터를 전송하여 상태를 업데이트 한다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/250087e4-54fd-4e0f-add7-af4c98fb14e0" alt="설비관리1">
+  </ul>
+  <br>
+  <h3>설비관리 - 설비수리이력 조회 & 설비가동 현황</h3>
+  <ul>
+    <li><b>설비수리이력 조회</b></li>
+    <ul>
+      <li>설비관리에서 '수리완료'를 누르면, '수리날짜', '수리 이력 내용'이 뜬다.</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/73dac92e-2413-4d9d-8c01-a54b95eb80f2" alt="설비수리이력 조회1">
+    </ul>
+    <li><b>설비가동 현황</b></li>
+    <ul>
+      <li>설비관리에서 클릭하는 버튼에 따라 상태와 현황이 바뀐다.</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/e6c24e99-28be-4b57-beaa-5a9de29785d2" alt="설비가동 현황1">
+    </ul>
+  </ul>
 </details>
 
 <br><br>
