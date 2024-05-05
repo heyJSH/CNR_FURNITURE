@@ -12,13 +12,15 @@
 3. [🔧 아키텍처](#-아키텍처)
 4. [🏗️ ERD](#-ERD)
 5. [⚠️ 트러블 슈팅](#-트러블-슈팅)
-6. [📂 파일명 설명 및 개발일정](#-파일명-설명-및-개발일정)
+6. [📖 파일명 설명 및 개발일정](#-파일명-설명-및-개발일정)
+7. [📽️ 작동 영상](#-작동-영상)
 
       <br><br>
 
 ## 🖥️ 프로젝트 개요
 ### :calendar: 개발기간
   - 2024년 3월 19일 ~ 4월 21일 개발 진행
+  ![image](https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/78905272-b349-4a12-a23d-5435d5c8c4fd)
 
 ### 🔖프로젝트 주제
   - 대상: 가구를 생산하고 제조하는 회사
@@ -106,8 +108,16 @@ DB와 ERD <br>
 <br><br>
 
 ## ⚠️ 트러블 슈팅
+
 <br><br>
 
-## 📂 파일명 설명 및 개발일정
+## 📖 파일명 설명 및 개발일정
 [[📑 파일명 설명 및 개발일정]](https://docs.google.com/spreadsheets/d/1f2Vgb-qmd-GQKiG3kfBYp12KGKcHwL41/edit?usp=sharing&ouid=106247567413866015973&rtpof=true&sd=true)
+
 <br><br>
+
+## 📽️ 작동 영상
+[📹 작동 영상]()
+
+## 🗃️ 발표자료
+[[📂 발표자료]](https://www.canva.com/design/DAGB09QYuLw/aAn0IDhyphJN4kNFbcFN7g/edit?utm_content=DAGB09QYuLw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
