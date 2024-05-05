@@ -448,7 +448,7 @@
   <ul>
     <li>'수입검사현황' 목록에서 원하는 행의 [수정] 버튼을 누르면, 수정 모달창이 나타난다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/e8bd7576-f73d-4ffd-8950-53c719abffbb" alt="수입검사관리 - 수정1">
-    <li>모달창의 input에는 선택한 행의 정보가 담겨져있다.</li>
+    <li>모달창의 input에는 선택한 행의 정보가 담겨져 있다.</li>
     <li>'불량유형1', '불량유형2', '비고'의 내용을 수정한 후, [등록] 버튼을 누르면, 수정사항이 DB에 저장된다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/f5d32359-9203-48c3-a4c3-7d3c09ed0e08" alt="수입검사관리 - 수정2">
   </ul>
@@ -467,7 +467,30 @@
     <li>'작업번호' 입력 시, '공정번호', '공정명', '제조LOT번호', '설비번호', '단위', '일일총작업수량'의 내용이 자동으로 채워진다.</li>
     <li>세부내용을 입력한 후 [추가] 버튼을 누르면, 모달창 하단에 '공정불량목록'이 나타난다.</li>
     <li>원하는 만큼 내용을 추가한 후, [등록] 버튼을 누르면, DB에 저장된다.</li>
-    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/290af09f-e23f-494f-b8a9-3f3323a60e42" alt="공정검사관리 - 등록2">
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/3914d86e-ef99-4ac4-b26a-899364fbb592" alt="공정검사관리 - 등록2">
+    <li><b>[최종 등록] 시, DB에 저장되는 로직과 코드는 다음과 같다.</b></li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/496b42a0-62c8-4e5e-b779-599b032e054c" alt="공정검사관리 - 등록3">
+  </ul>
+  <br>
+  <h3>품질관리 - 공정검사관리 - 수정</h3>
+  <ul>
+    <li>'공정검사현황' 목록에서 원하는 행의 [수정] 버튼을 누르면, 수정 모달창이 나타난다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/9876c36e-e619-470d-8c2c-85dc843cd974" alt="공정검사관리 - 수정1">
+    <li>모달창의 input에는 선택한 행의 데이터를 담겨져 있다.</li>
+    <li>'불량유형1', '불량유형2', '비고'의 내용을 수정한 후, [등록] 버튼을 누르면, 수정사항이 DB에 저장된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/05aa1f77-9bca-4546-a060-115d5edbca95" alt="공정검사관리 - 수정2">
+  </ul>
+  <br>
+  <h3>품질관리 - 출하검사관리 화면</h3>
+  <ul>
+    <li>검사관리 전체 화면은 사진과 같다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/3f094408-8443-4aff-9fed-7cc85347f2a1" alt="출하검사관리 - 전체화면1">
+  </ul>
+  <br>
+  <h3>품질관리 - 출하검사관리 - 등록</h3>
+  <ul>
+    <li>[제품불량등록] 버튼을 누르면, 등록 모달창이 나타난다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/446d64d0-55ee-4c4b-80d9-568296f04933" alt="출하검사관리 - 등록1">
   </ul>
 </details>
 
