@@ -386,6 +386,52 @@
   </ul>
 </details>
 
+<details>
+  <summary><b>10. 품질관리 [정수하]</b> (👈 Click)</summary>
+  <br>
+  <h3>품질관리 - 수입검사관리 화면</h3>
+  <ul>
+    <li>수입검사관리 화면에서 할 수 있는 것은 다음과 같다.</li>
+    <ul>
+      <li>검색 및 조회</li>
+      <li>등록</li>
+      <li>수정</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/bf6cd88e-f150-4a48-9ed9-192ab83205e2" alt="수입검사관리 화면">
+    </ul>
+  </ul>
+  <br>
+  <h3>품질관리 - 수입검사관리 - 검색 및 조회</h3>
+  <ul>
+    <li>화면 상단의 '검색창'에서 datalist를 통해 검색용 데이터를 조회하면서 입력할 수 있다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/9e72451e-2276-40c6-bc4a-1ea3ebe0e8be" alt="수입검사관리 - 검색 및 조회1">
+    <li>'검색창'의 '불량유형1'을 선택하면, '불량유형1'에 따른 '불량유형2'의 option을 조회하고 선택할 수 있다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/0f4c16b8-2010-45bc-86c5-3a5595bdbabe" alt="수입검사관리 - 검색 및 조회2">
+    <li>검색 키워드 입력 후, [검색] 버튼을 누르면, 해당하는 내용을 조회할 수 있다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/d8e7dba3-f61f-461e-8926-a636bc38eccb" alt="수입검사관리 - 검색 및 조회3">
+  </ul>
+  <br>
+  <h3>품질관리 - 수입검사관리 - 등록</h3>
+  <ul>
+    <li>[자재불량등록] 버튼을 누르면, '수입검사 - 자재불량 및 입고등록' 모달창이 나타난다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/deb4497c-6d38-4f2f-8def-ce763b655f43" alt="수입검사관리 - 등록1">
+    <li>'수입검사관리 등록 모달창' 내의 로직은 다음과 같다.</li>
+    <ul>
+      1. '계약번호' 입력 시, 관련 내용이 자동으로 채워진다. → Ajax 사용
+      <ul>
+        <li>거래처명</li>
+        <li>단위</li>
+        <li>자재번호</li>
+        <li>자재명</li>
+        <li>자재용도</li>
+        <li>계약입고수량</li>
+      </ul>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/4845b838-3dcd-4693-a7d7-0fe18d22812c" alt="수입검사관리 - 등록2">
+      <li>JavaScript의 Ajax 코드</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/9692a24f-83fc-4037-932d-e53e4261fb5b" alt="수입검사관리 - 등록3">
+    </ul>
+  </ul>
+</details>
+
 <br><br>
 
 ## 🔧 아키텍처
