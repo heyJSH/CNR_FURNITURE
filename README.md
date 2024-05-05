@@ -424,10 +424,10 @@
         <li>자재명</li>
         <li>자재용도</li>
         <li>계약입고수량</li>
+        <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/4845b838-3dcd-4693-a7d7-0fe18d22812c" alt="수입검사관리 - 등록2">
+        <li>JavaScript의 Ajax 코드</li>
+        <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/9692a24f-83fc-4037-932d-e53e4261fb5b" alt="수입검사관리 - 등록3">
       </ul>
-      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/4845b838-3dcd-4693-a7d7-0fe18d22812c" alt="수입검사관리 - 등록2">
-      <li>JavaScript의 Ajax 코드</li>
-      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/9692a24f-83fc-4037-932d-e53e4261fb5b" alt="수입검사관리 - 등록3">
     </ul>
   </ul>
 </details>
