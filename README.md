@@ -12,6 +12,8 @@
 3. [🔧 아키텍처](#-아키텍처)
 4. [🏗️ ERD](#-ERD)
 5. [⚠️ 트러블 슈팅](#-트러블-슈팅)
+6. [📂 파일명 설명 및 개발일정](#-파일명-설명-및-개발일정)
+
       <br><br>
 
 ## 🖥️ 프로젝트 개요
@@ -100,7 +102,12 @@
 ## 🏗️ ERD
 DB와 ERD <br>
 ![ERD](https://github.com/jihyeon00/CNR_FURNITURE/assets/120089047/6e185a73-564b-4d12-ae31-2379761be4ab)
+
 <br><br>
 
 ## ⚠️ 트러블 슈팅
+<br><br>
+
+## 📂 파일명 설명 및 개발일정
+[[📑 파일명 설명 및 개발일정]](https://docs.google.com/spreadsheets/d/1f2Vgb-qmd-GQKiG3kfBYp12KGKcHwL41/edit?usp=sharing&ouid=106247567413866015973&rtpof=true&sd=true)
 <br><br>
