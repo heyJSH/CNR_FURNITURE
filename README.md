@@ -494,6 +494,7 @@
     <li>세부내용을 입력한 후 [추가] 버튼을 누르면, 모달창 하단에 '제품불량목록'이 나타난다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/446d64d0-55ee-4c4b-80d9-568296f04933" alt="출하검사관리 - 등록1">
     <li><b>[최종 등록] 시, DB에 저장되는 로직과 코드는 다음과 같다.</b></li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/ccc566a3-42ba-4b2d-82d9-162e1afcdcc8" alt="출하검사관리 - 등록2">
   </ul>
 </details>
 
