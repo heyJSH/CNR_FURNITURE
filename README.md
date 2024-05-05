@@ -13,7 +13,7 @@
 4. [🏗️ ERD](#-ERD)
 5. [⚠️ 트러블 슈팅](#-트러블-슈팅)
 6. [📖 파일명 설명 및 개발일정](#-파일명-설명-및-개발일정)
-7. [💌 화면 설계](#-화면-설계)
+7. [💌 Figma 화면 설계](#-Figma-화면-설계)
 8. [📽️ 작동 영상](#-작동-영상)
 9. [🗃️ 발표자료](#-발표자료)
 
@@ -463,7 +463,7 @@ DB와 ERD <br>
 
 <br><br>
 
-## 💌 화면 설계
+## 💌 Figma 화면 설계
 [[📃 Figma 화면 설계]](https://www.figma.com/file/TJCIsPWBYpiGFq3VZo7aAL/Cozy%26Rest-FURNTIURE?type=design&node-id=12%3A29&mode=design&t=aUd3q1s9bI56t4N3-1)
 
 <br><br>
