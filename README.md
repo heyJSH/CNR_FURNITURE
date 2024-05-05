@@ -128,7 +128,28 @@
   <br>
   <h3>자재/제품정보관리 - 검색 인터페이스 & 조회</h3>
   <ul>
-    <li></li>
+    <li>select box의 option에서 검색 주제를 선택한 후, 키워드를 입력하여 검색하면 해당하는 내용의 목록을 볼 수 있다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/508dfc17-c9b7-49bb-924e-9fd8603a7ba4" alt="자재/제품정보 검색">
+  </ul>
+  <br>
+  <h3>자재/제품정보관리 - 등록</h3>
+  <ul>
+    <li>[제품등록] 버튼을 누르면 제품정보 등록 모달창이 뜬다.</li>
+    <li>제품 정보 입력 후, [등록] 버튼을 누르면 DB에 저장된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/4fad14e3-8670-4da3-b953-a88bde335404" alt="자재/제품정보 등록">
+  </ul>
+  <br>
+  <h3>자재/제품정보관리 - 수정</h3>
+  <ul>
+    <li>[제품 목록]에서 원하는 행의 [수정] 버튼을 누르면 수정 모달창이 뜬다.</li>
+    <li>수정할 내용을 입력 후, [수정] 버튼을 누르면 DB에 저장된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/70ace592-ce92-4af7-89df-1b8d055bb2b8" alt="자재/제품정보 등록">
+  </ul>
+  <br>
+  <h3>자재/제품정보관리 - 등록 및 sweetAlert2</h3>
+  <ul>
+    <li>외부 라이브러리를 사용하여 등록 시, 등록 확인용 alert창이 뜬다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/af1b1db0-e303-469e-9a5f-7841adb92c9d" alt="등록 및 sweetAlert2">
   </ul>
 </details>
 
