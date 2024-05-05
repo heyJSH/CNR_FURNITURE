@@ -441,6 +441,29 @@
     <li><b>[최종 등록] 시, DB에 저장되는 로직과 코드는 다음과 같다.</b></li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/8b47c956-cfe5-4357-880d-6ae71230c074" alt="수입검사관리 - 등록6">
   </ul>
+  <br>
+  <h3>품질관리 - 수입검사관리 - 수정</h3>
+  <ul>
+    <li>'수입검사현황' 목록에서 원하는 행의 [수정] 버튼을 누르면, 수정 모달창이 나타난다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/e8bd7576-f73d-4ffd-8950-53c719abffbb" alt="수입검사관리 - 수정1">
+    <li>모달창의 input에는 선택한 행의 정보가 담겨져있다.</li>
+    <li>'불량유형1', '불량유형2', '비고'의 내용을 수정한 후, [등록] 버튼을 누르면, 수정사항이 DB에 저장된다.</li>
+    ![image](https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/f5d32359-9203-48c3-a4c3-7d3c09ed0e08)
+  </ul>
+  <br>
+  <h3>품질관리 - 공정검사관리 화면</h3>
+  <ul>
+    <li>공정검사관리 전체 화면은 사진과 같다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/0c5f80bb-5250-406b-9cdd-e6509cfbaaa1" alt="공정검사관리 - 전체화면1">
+  </ul>
+  <br>
+  <h3>품질관리 - 공정검사관리 - 등록</h3>
+  <ul>
+    <li>[공정불량등록] 버튼을 누른다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/b9c24b33-295b-49e3-b1fa-cb24c3c6c0e0" alt="공정검사관리 - 등록1">
+    <li>'공정검사 - 공정불량등록' 모달창이 나타난다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/290af09f-e23f-494f-b8a9-3f3323a60e42" alt="공정검사관리 - 등록2">
+  </ul>
 </details>
 
 <br><br>
