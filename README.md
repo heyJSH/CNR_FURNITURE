@@ -107,11 +107,9 @@
 ## 🏗️ ERD
 DB와 ERD <br>
 ![ERD](https://github.com/jihyeon00/CNR_FURNITURE/assets/120089047/6e185a73-564b-4d12-ae31-2379761be4ab)
-
 <br><br>
 
 ## ⚠️ 트러블 슈팅
-
 <br><br>
 
 ## 📖 파일명 설명 및 개발일정
