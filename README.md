@@ -430,7 +430,6 @@
       </ul>
       <b>2. 나머지 정보를 입력하고 [추가] 버튼을 누르면, '자재불량목록'에서 추가된 내용을 확인할 수 있다.</b>
       <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/edba8d6c-8ee3-45a3-a915-4646cb04afbe" alt="수입검사관리 - 등록3">
-      ![image]()
       <ul>
         <li>이 때, 동일한 검사 대상이더라도, 다양한 불량유형이 있을 수 있다.</li>
         <li>위의 조건이라면, 자동으로 '양품수량'을 계산하여 표기하도록 했다.</li>
@@ -442,7 +441,7 @@
       <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/c92149a0-5709-4303-b3b5-bb1cbe29b62b" alt="수입검사관리 - 등록6">
     </ul>
     <li><b>[최종 등록] 시, DB에 저장되는 로직과 코드는 다음과 같다.</b></li>
-    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/8b47c956-cfe5-4357-880d-6ae71230c074" alt="수입검사관리 - 등록7">
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/857b4701-5b61-4312-8c4c-9d917cafea1c" alt="수입검사관리 - 등록7">
   </ul>
   <br>
   <h3>품질관리 - 수입검사관리 - 수정</h3>
@@ -465,6 +464,9 @@
     <li>[공정불량등록] 버튼을 누른다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/b9c24b33-295b-49e3-b1fa-cb24c3c6c0e0" alt="공정검사관리 - 등록1">
     <li>'공정검사 - 공정불량등록' 모달창이 나타난다.</li>
+    <li>'작업번호' 입력 시, '공정번호', '공정명', '제조LOT번호', '설비번호', '단위', '일일총작업수량'의 내용이 자동으로 채워진다.</li>
+    <li>세부내용을 입력한 후 [추가] 버튼을 누르면, 모달창 하단에 '공정불량목록'이 나타난다.</li>
+    <li>원하는 만큼 내용을 추가한 후, [등록] 버튼을 누르면, DB에 저장된다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/290af09f-e23f-494f-b8a9-3f3323a60e42" alt="공정검사관리 - 등록2">
   </ul>
 </details>
