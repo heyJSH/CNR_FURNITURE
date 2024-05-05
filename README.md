@@ -448,7 +448,7 @@
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/e8bd7576-f73d-4ffd-8950-53c719abffbb" alt="수입검사관리 - 수정1">
     <li>모달창의 input에는 선택한 행의 정보가 담겨져있다.</li>
     <li>'불량유형1', '불량유형2', '비고'의 내용을 수정한 후, [등록] 버튼을 누르면, 수정사항이 DB에 저장된다.</li>
-    ![image](https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/f5d32359-9203-48c3-a4c3-7d3c09ed0e08)
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/f5d32359-9203-48c3-a4c3-7d3c09ed0e08" alt="수입검사관리 - 수정2">
   </ul>
   <br>
   <h3>품질관리 - 공정검사관리 화면</h3>
