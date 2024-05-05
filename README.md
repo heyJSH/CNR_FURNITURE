@@ -14,6 +14,7 @@
 5. [⚠️ 트러블 슈팅](#-트러블-슈팅)
 6. [📖 파일명 설명 및 개발일정](#-파일명-설명-및-개발일정)
 7. [📽️ 작동 영상](#-작동-영상)
+8. [🗃️ 발표자료](#-발표자료)
 
       <br><br>
 
@@ -57,22 +58,24 @@
 원목 가구를 생산/제조하는 업체에서 사용하는 MES 시스템 프로그램을 제공한다.
 
 <details>
-  <summary><b>1. 로그인 & 접근제한</b> (👈 Click)</summary>
+  <summary><b>1. 로그인/비밀번호 재설정 [이시연]</b> (👈 Click)</summary>
+  <br>
   <div markdown="1">
+    <h3>로그인</h3>
     <ul>
-      <li>직원 번호가 데이터에 있으면 로그인이 가능하다.</li>
-      <li>부서별 접근 가능한 페이지가 다르다.
-        <ol>
-          <li>
-            ex1) 생산팀은 로그인 시 `재고현황`, `제조관리`만 보여준다. <br>
-            <img src="https://github.com/heyJSH/Project-Meal_Kit_SpringBoot/assets/150403977/83eb1444-d06f-4b7c-a750-cfb08b1dee16" alt="생산팀 접근가능한 메뉴">
-          </li>
-          <li>
-            ex2) 관리팀은 모든 페이지에 접근할 수 있다. <br>
-            <img src="https://github.com/heyJSH/Project-Meal_Kit_SpringBoot/assets/150403977/2c487107-703d-44df-b55d-2712ea79ae70" alt="관리팀 접근가능한 메뉴">
-          </li>
-        </ol>
-      </li>
+      <li>Security를 활용하여 로그인한다.</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/f6fd7296-ad69-4b96-9804-8483eddedfde" alt="로그인1">
+      <li>로그인 실패 시, Config의 오류 메시지를 받아서 View로 반환한다.</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/3f8d1bc2-bba2-482c-bb1c-787e56066516" alt="로그인2">
+    </ul>
+    <br>
+    <h3>비밀번호 재설정</h3>
+    <ul>
+      <li>메일을 통해 일회용 인증코드를 전송하여 본인확인 후 비밀번호를 변경(재설정)할 수 있다.</li>
+      <li>비밀번호 재설정 화면은 다음과 같다.</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/e5b90d48-379d-429a-ad38-3faa2ea6507d" alt="비밀번호 재설정1">
+      <li>비밀번호 재설정 인증 이메일</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/746fb881-1959-4698-b0f7-04f35f20fe85" alt="비밀번호 재설정2">
     </ul>
   </div>
 </details>
@@ -118,6 +121,8 @@ DB와 ERD <br>
 
 ## 📽️ 작동 영상
 [📹 작동 영상]()
+
+<br><br>
 
 ## 🗃️ 발표자료
 [[📂 발표자료]](https://www.canva.com/design/DAGB09QYuLw/aAn0IDhyphJN4kNFbcFN7g/edit?utm_content=DAGB09QYuLw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
