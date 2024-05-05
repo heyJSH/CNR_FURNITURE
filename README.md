@@ -404,9 +404,10 @@
   <h3>품질관리 - 수입검사관리 - 검색 및 조회</h3>
   <ul>
     <li>화면 상단의 '검색창'에서 datalist를 통해 검색용 데이터를 조회하면서 입력할 수 있다.</li>
-    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/9e72451e-2276-40c6-bc4a-1ea3ebe0e8be" alt="수입검사관리 - 검색 및 조회1">
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/6a794c60-b7ee-48e1-be13-d32141435531" alt="수입검사관리 - 검색 및 조회1">
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/672d8629-9ff6-424c-85e5-822fb287a1c8" alt="수입검사관리 - 검색 및 조회1-2">
     <li>'검색창'의 '불량유형1'을 선택하면, '불량유형1'에 따른 '불량유형2'의 option을 조회하고 선택할 수 있다.</li>
-    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/0f4c16b8-2010-45bc-86c5-3a5595bdbabe" alt="수입검사관리 - 검색 및 조회2">
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/f68f15b0-13e5-4985-a1cb-08233b9a7d46" alt="수입검사관리 - 검색 및 조회2">
     <li>검색 키워드 입력 후, [검색] 버튼을 누르면, 해당하는 내용을 조회할 수 있다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/d8e7dba3-f61f-461e-8926-a636bc38eccb" alt="수입검사관리 - 검색 및 조회3">
   </ul>
