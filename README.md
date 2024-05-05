@@ -429,18 +429,20 @@
         <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/b188046a-9298-45a0-9ff1-a05ef3539e86" alt="수입검사관리 - 등록2">
       </ul>
       <b>2. 나머지 정보를 입력하고 [추가] 버튼을 누르면, '자재불량목록'에서 추가된 내용을 확인할 수 있다.</b>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/edba8d6c-8ee3-45a3-a915-4646cb04afbe" alt="수입검사관리 - 등록3">
+      ![image]()
       <ul>
         <li>이 때, 동일한 검사 대상이더라도, 다양한 불량유형이 있을 수 있다.</li>
         <li>위의 조건이라면, 자동으로 '양품수량'을 계산하여 표기하도록 했다.</li>
-        <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/4c712f58-14f0-4644-a837-53fe06c12e9b" alt="수입검사관리 - 등록3">
+        <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/4c712f58-14f0-4644-a837-53fe06c12e9b" alt="수입검사관리 - 등록4">
         <li>'불량유형2', '비고'는 null 가능하지만, 다른 항목은 null이 불가능하다.</li>
-        <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/bc123911-2939-4558-8a8f-b52c3d41a1d9" alt="수입검사관리 - 등록4">
+        <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/bc123911-2939-4558-8a8f-b52c3d41a1d9" alt="수입검사관리 - 등록5">
       </ul>
       <b>3. 원하는 만큼 추가한 후, [등록] 버튼을 누르면, 테이블에서 데이터를 수집한 후, ajax 통신으로 DB에 저장된다.</b>
-      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/c92149a0-5709-4303-b3b5-bb1cbe29b62b" alt="수입검사관리 - 등록5">
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/c92149a0-5709-4303-b3b5-bb1cbe29b62b" alt="수입검사관리 - 등록6">
     </ul>
     <li><b>[최종 등록] 시, DB에 저장되는 로직과 코드는 다음과 같다.</b></li>
-    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/8b47c956-cfe5-4357-880d-6ae71230c074" alt="수입검사관리 - 등록6">
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/8b47c956-cfe5-4357-880d-6ae71230c074" alt="수입검사관리 - 등록7">
   </ul>
   <br>
   <h3>품질관리 - 수입검사관리 - 수정</h3>
