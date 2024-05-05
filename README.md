@@ -464,7 +464,7 @@ DB와 ERD <br>
 <br><br>
 
 ## 💌 화면 설계
-[[🎫 Figma 화면 설계]](https://www.figma.com/file/TJCIsPWBYpiGFq3VZo7aAL/Cozy%26Rest-FURNTIURE?type=design&node-id=12%3A29&mode=design&t=aUd3q1s9bI56t4N3-1)
+[[📃 Figma 화면 설계]](https://www.figma.com/file/TJCIsPWBYpiGFq3VZo7aAL/Cozy%26Rest-FURNTIURE?type=design&node-id=12%3A29&mode=design&t=aUd3q1s9bI56t4N3-1)
 
 <br><br>
 
