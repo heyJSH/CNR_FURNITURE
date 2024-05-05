@@ -76,25 +76,69 @@
       <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/e5b90d48-379d-429a-ad38-3faa2ea6507d" alt="비밀번호 재설정1">
       <li>비밀번호 재설정 인증 이메일</li>
       <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/746fb881-1959-4698-b0f7-04f35f20fe85" alt="비밀번호 재설정2">
+      <li>비밀번호 재설정 인증번호를 입력 후, 비밀번호를 변경(재설정)할 수 있다.</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/60d917a5-9d5b-457d-a9ff-caff9fd6c735" alt="비밀번호 재설정3">
     </ul>
   </div>
 </details>
 
 <details>
-  <summary><b>2. 마이페이지</b> (👈 Click)</summary>
+  <summary><b>2. 사원정보조회/거래처관리/계약관리 [이시연]</b> (👈 Click)</summary>
+  <br>
   <div markdown="1">
+    <h3>사원정보조회</h3>
     <ul>
-      <li>'직원이름'과 '직원아이디'는 수정할 수 없다.</li>
-      <li>'비밀번호', '전화번호'는 수정할 수 있다.
-        <ol>
-          <li>
-            비밀번호, 전화번호 수정 시 포맷을 맞추도록 했다. <br>
-            <img src="https://github.com/heyJSH/Project-Meal_Kit_SpringBoot/assets/150403977/7449c4dd-4328-4408-9483-82ddf8c29686" alt="직원정보수정">
-          </li>
-        </ol>
-      </li>
+      <li>사원정보조회 화면</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/68f39768-82ee-45fd-8c1e-5c6559faa5fd" alt="사원정보조회">
+    </ul>
+    <br>
+    <h3>거래처관리</h3>
+    <ul>
+      <li>거래처관리 화면</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/3749cb6b-2a36-4c6f-9234-953622588273" alt="거래처관리">
+    </ul>
+    <br>
+    <h3>계약관리</h3>
+    <ul>
+      <li>계약관리 화면</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/12e38992-5e2c-40ba-8153-563c15e94ee1" alt="계약관리">
     </ul>
   </div>
+</details>
+
+<details>
+  <summary><b>3. 권한관리 [이시연]</b> (👈 Click)</summary>
+  <br>
+  <h3>권한관리 - 권한 변경</h3>
+  <ul>
+    <li>직원 목록의 체크박스 선택 후, [권한변경] 버튼을 누르면 바로 위의 권한으로 변경할 수 있다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/3be67aeb-a96a-4ba7-859b-b18775f6ff91" alt="권한관리1">
+  </ul>
+  <br>
+  <h3>권한관리 - 사원등록</h3>
+  <ul>
+    <li>[사원등록] 버튼을 누르면 사원등록 모달창이 뜬다.</li>
+    <li>사원 정보 입력 후, [등록] 버튼을 누르면 DB에 저장이 된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/ff698974-afb7-4b90-8491-7dee9e4e8412" alt="사원등록">
+  </ul>
+</details>
+
+<details>
+  <summary><b>4. 자재/제품정보관리 [이현주]</b> (👈 Click)</summary>
+  <br>
+  <h3>자재/제품정보관리 - 검색 인터페이스 & 조회</h3>
+  <ul>
+    <li></li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>5. BOM 관리 [이현주]</b> (👈 Click)</summary>
+  <br>
+  <h3>BOM 관리</h3>
+  <ul>
+    <li></li>
+  </ul>
 </details>
 
 <br><br>
