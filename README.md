@@ -156,9 +156,127 @@
 <details>
   <summary><b>5. BOM 관리 [이현주]</b> (👈 Click)</summary>
   <br>
-  <h3>BOM 관리</h3>
+  <h3>BOM 관리 - 세부목록 조회</h3>
   <ul>
-    <li></li>
+    <li>제품번호 클릭 시, 해당하는 자재리스트를 조회할 수 있다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/e5d0454b-2828-4f13-8cf2-923272e72988" alt="BOM 세부목록 조회">
+  </ul>
+  <br>
+  <h3>BOM 관리 - 세부목록 수정</h3>
+  <ul>
+    <li>원하는 행의 [수정] 버튼을 누른 후 값을 입력하고 [수정] 버튼을 누르면 DB에 저장된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/d97aab8b-b26f-41bb-a83a-096e10483150" alt="BOM 수정">
+  </ul>
+  <br>
+  <h3>BOM 관리 - BOM 등록</h3>
+  <ul>
+    <li>'제품번호', '자재번호'를 선택하고 '단위', '수량'을 입력한 후, [추가] 버튼을 누르면 DB에 저장된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/2fd179a2-0b65-4c76-a657-331d633e9faa" alt="BOM 등록">
+  </ul>
+</details>
+
+<details>
+  <summary><b>6. 작업자 스케쥴 조회: 월별 스케줄러 [이현주]</b> (👈 Click)</summary>
+  <br>
+  <h3>작업자 스케쥴 조회</h3>
+  <ul>
+    <li>구글 캘린더 API를 적용하여 작업자의 스케쥴을 조회할 수 있도록 했다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/f89201c2-f113-4e08-91e1-25d5cc13d0ed" alt="작업자 스케쥴 조회">
+  </ul>
+</details>
+
+<details>
+  <summary><b>7. 제조지시/제조수행지시/공정정보관리 [조다혜]</b> (👈 Click)</summary>
+  <br>
+  <h3>제조지시/제조수행지시/공정정보관리 - 검색</h3>
+  <ul>
+    <li>datalist를 사용하여 검색 키워드를 입력하거나, 선택할 수 있다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/57b4268a-f21e-403b-adcf-7a5f3942cd58" alt="제조지시 등 검색list">
+  </ul>
+  <br>
+  <h3>제조지시 - 등록</h3>
+  <ul>
+    <li>[등록] 버튼을 누르면 모달창이 뜬다.</li>
+    <li>계약 목록에서 원하는 계약을 선택한 후 [+] 버튼을 누르면, 계약 정보가 자동으로 등록된다.</li>
+    <li>세부 정보를 입력하고 [추가] 버튼을 누르면 제조지시 목록에 나타난다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/2c8ec92d-d1c9-4c32-aebf-e2bcf1f43407" alt="제조지시 등록1">
+    <li>원하는 만큼 정보를 추가한 후, [등록] 버튼을 누르면 DB에 저장된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/1b795249-6b2e-45dd-a4fe-a4b974a03de8" alt="제조지시 등록2">
+  </ul>
+  <br>
+  <h3>제조지시 - PDF 저장</h3>
+  <ul>
+    <li>'제조지시 목록'에서 저장을 원하는 행의 체크박스를 선택 후, [계약 내역서]를 누르면 '제품 공급 계약 내역서'를 조회할 수 있다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/b56036b9-b660-41fe-ad2f-9cc3e7b32329" alt="pdf 저장1">
+    <li>jsPDF 라이브러리를 연결하여, [PDF로 보기] 버튼을 누르면 PDF 파일로 저장할 수 있다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/87d47a84-7aa2-44ab-aad7-e09e99d5a252" alt="pdf 저장2">
+  </ul>
+  <br>
+  <h3>제조수행지시 - 등록</h3>
+  <ul>
+    <li>[등록] 버튼을 누르면 제조수행지시등록 모달창이 뜬다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/1eb05ea4-44f2-474d-8759-b57e4a705279" alt="제조수행지시 등록1">
+    <li>내용을 입력한 후, [추가] 버튼을 누르면 하단에 목록이 생긴다.</li>
+    <li>추가한 목록은 [삭제] 버튼을 통해 삭제할 수 있다.</li>
+    <li>원하는 만큼 추가한 후, [등록] 버튼을 누르면 DB에 저장된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/0da4d35e-d7ed-4026-a3fd-acf18b0eee34" alt="제조수행지시 등록2">
+  </ul>
+  <br>
+  <h3>공정정보관리 - 등록</h3>
+  <ul>
+    <li>[등록] 버튼을 누르면 공정정보등록 모달창이 뜬다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/42f99311-f22a-4090-9f8e-45226459ef09" alt="공정정보 등록1">
+    <li>'설비목록'에서 검색을 통해 조회가 가능하고, 원하는 설비를 선택한 후, [+] 버튼을 누르면 '추가된 설비목록'으로 이동한다.</li>
+    <li>'추가된 설비목록'에서 원하는 설비를 선택하고 [+] 버튼을 누르면 상단의 input에 값이 채워진다.</li>
+    <li>나머지 세부정보를 입력하고 [공정등록] 버튼을 누르면 DB에 저장된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/4eb97f31-353a-46ba-b9a2-bf8cef55ad7d" alt="공정정보 등록2">
+  </ul>
+</details>
+
+<details>
+  <summary><b>8. 공정관리 [배지현]</b> (👈 Click)</summary>
+  <br>
+  <h3>공정관리 - 작업관리 - 검색 및 조회</h3>
+  <ul>
+    <li>대부분의 검색항목을 datalist를 이용하여 해당하는 항목의 정보를 확인하고 가져올 수 있도록 했다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/37933cfc-ed88-4cc4-a2f0-769c4952e9db" alt="작업관리 검색">
+  </ul>
+  <br>
+  <h3>공정관리 - 작업관리 - 조회 및 작업등록</h3>
+  <ul>
+    <li>work의 작업목록 위에 있는 [작업등록] 버튼을 누르면 '작업등록 모달창'이 뜬다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/846c1325-e839-474e-971f-2229d2c02a2f" alt="작업등록1">
+    <li>'제조LOT번호'를 입력하면,<br>'제품번호', '제품명', '생산단위'의 내용이 자동으로 채워진다.</li>
+    <li>'공정번호'를 입력하면,<br>'설비번호', '설비명', '작업위치', '남은생산수량'의 내용이 자동으로 채워진다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/a8dd3322-7fa9-42e8-99d7-3b2baf81c18a" alt="작업등록2">
+    <li>나머지 세부 정보를 입력한 후, [추가] 버튼을 누르면 입력한 데이터가 배열에 저장되고 '작업등록목록'을 조회할 수 있다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/59a5476d-1ecc-4470-ae50-680bd890efdc" alt="작업등록3">
+    <li>원하는 만큼 추가한 후, [등록] 버튼을 누르면 DB에 저장된다.</li>
+    <li>이 때, 소요시간 계산 수식은 다음과 같다.</li>
+    <ul>
+      <li>소요시간 = 작업종료시간 - 작업시작시간</li>
+      <li>조건1. 작업시간 차이가 810분(13시간 30분) 이상인 경우 -90분</li>
+      <li>조건2. 작업시간 차이가 4시간 이상 8시간 미만인 경우 -30분</li>
+      <li>조건3. 작업시간 차이가 4시간 미만인 경우 -0분</li>
+      <li>그 외. -60분</li>
+    </ul>
+  </ul>
+  <br>
+  <h3>공정관리 - 작업관리 - 작업 상세 및 수정/삭제</h3>
+  <ul>
+    <li>work의 '작업목록' 중, [작업상세] 버튼을 누르면, 작업상세 조회와 수정/삭제를 할 수 있는 모달창이 나타난다.</li>
+    <li>앞서 작업등록에 이용된 것처럼, '작업종료시간 - 작업시작시간'으로 소요시간을 계산한다.</li>
+    <li>작업시작시간이 현재시간보다 과거라면, 이미 작업이 시작된 것으로 readonly 속성을 가진다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/e7d83890-26a1-492e-a4de-31b682f5e586" alt="작업상세 수정1">
+    <ul>
+      <li><b>수정할 경우, 한 번에 수정되어야 할 사항은 다음과 같다.</b></li>
+      1. 생산수량이 1 이상일 경우, process 테이블의 누적생산수량에 합해진다.<br>
+      2. 진행상황이 '작업중'일 경우, 설비 작동 테이블의 MW_STATUS = '가동'<br>
+      3. 진행상황이 '작업정지' 혹은 '작업종료'일 경우, 설비 작동 테이블의 MW_STATUS = '비가동'<br>
+      4. 진행상황이 '작업중단'일 경우, 설비 작동 테이블의 MW_STATUS = '수리중', MW_CONDITION = '수리요청'
+    </ul>
+    <li>한 번에 수정하기 위하여, MyBatis를 이용해 작성한 쿼리를 트랜잭션 처리하도록 했다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/9928b7a8-e445-4023-b076-c020e801b047" alt="작업상세 수정2">
   </ul>
 </details>
 
