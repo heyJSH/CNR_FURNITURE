@@ -591,6 +591,13 @@ DB와 ERD <br>
       <li>[추가] 버튼을 누를 때마다 DB에 직접 저장이 되는 것은 필요없는 정보도 저장되면서 서버를 힘들게 한다고 생각했다.</li>
       <li>따라서, 의미없는 정보를 입력하지 않도록 JS에서 유효성 검사를 하도록 한 후, [등록] 버튼을 눌렀을 때, DB에 저장되도록 했다.</li>
     </ul>
+    <ol>
+      <li>[추가] 버튼을 누르면 입력했던 내용이 테이블에 조회되도록 한다.</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/fa28729a-d013-4015-b019-4b15e3c1a6ec" alt="추가버튼 JS 코드">
+      <li>[등록] 버튼을 누르면 테이블의 내용을 조회한 후, Ajax로 DB에 저장되도록 한다.</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/9906483b-49d7-40e5-9653-0caa52d00e67" alt="등록버튼 JS 코드">
+      위의 코드는 "수입검사 불량등록" 이지만, "공정검사", "출하검사"의 DB 저장 로직도 동일하다.
+    </ol>
   </div>
 </details>
 
