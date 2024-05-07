@@ -521,7 +521,8 @@
 
 ## 🔧 아키텍처
 ####  * 서버 배포를 진행하지 않았음
-![C_R-FURNITURE-아키텍처](https://github.com/jihyeon00/CNR_FURNITURE/assets/120089047/2e26b54e-86aa-4711-ad6d-11b6d36f420e)
+![image](https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/bd1df5df-bd1a-4481-bd5b-6d7ab40cacbe)
+
 <br><br>
 
 ## 🏗️ ERD
