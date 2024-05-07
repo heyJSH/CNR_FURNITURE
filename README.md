@@ -476,7 +476,7 @@
   <ul>
     <li>'공정검사현황' 목록에서 원하는 행의 [수정] 버튼을 누르면, 수정 모달창이 나타난다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/9876c36e-e619-470d-8c2c-85dc843cd974" alt="공정검사관리 - 수정1">
-    <li>모달창의 input에는 선택한 행의 데이터를 담겨져 있다.</li>
+    <li>모달창의 input에는 선택한 행의 데이터가 담겨져 있다.</li>
     <li>'불량유형1', '불량유형2', '비고'의 내용을 수정한 후, [등록] 버튼을 누르면, 수정사항이 DB에 저장된다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/05aa1f77-9bca-4546-a060-115d5edbca95" alt="공정검사관리 - 수정2">
   </ul>
@@ -495,6 +495,26 @@
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/446d64d0-55ee-4c4b-80d9-568296f04933" alt="출하검사관리 - 등록1">
     <li><b>[최종 등록] 시, DB에 저장되는 로직과 코드는 다음과 같다.</b></li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/ccc566a3-42ba-4b2d-82d9-162e1afcdcc8" alt="출하검사관리 - 등록2">
+  </ul>
+  <br>
+  <h3>품질관리 - 출하검사관리 - 수정</h3>
+  <ul>
+    <li>'출하검사현황' 목록에서 원하는 행의 [수정] 버튼을 누르면, 수정 모달창이 나타난다.</li>
+    <li>모달창의 input에는 선택한 행의 데이터가 담겨져 있다.</li>
+    <li>'불량유형1', '불량유형2', '비고'의 내용을 수정한 후, [등록] 버튼을 누르면, 수정사항이 DB에 저장된다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/4fedb017-b44f-42fd-aa49-c38532cc8e74" alt="출하검사관리 - 수정1">
+  </ul>
+  <br>
+  <h3>품질관리 - 공정불량실적</h3>
+  <ul>
+    <li>각 공정번호 별, 불량유형에 따라 불량 실적을 검색 및 조회할 수 있다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/a855aab8-b4a0-4000-8a88-c0712e241524" alt="공정불량실적1">
+  </ul>
+  <br>
+  <h3>재관리 - 제품재고조회</h3>
+  <ul>
+    <li>제품 재고를 검색 및 조회할 수 있다.</li>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/bad036c2-681d-4342-8ce7-14a8c098b338" alt="제품재고조회">
   </ul>
 </details>
 
