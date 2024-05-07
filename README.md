@@ -529,12 +529,12 @@ DB와 ERD <br>
 ![ERD](https://github.com/jihyeon00/CNR_FURNITURE/assets/120089047/6e185a73-564b-4d12-ae31-2379761be4ab)
 <br><br>
 
-## ⚠️ 트러블 슈팅
+## ⚠️ 트러블 슈팅 [정수하]
 <details>
   <summary>트러블슈팅1: <b>불량 등록 시, DB에 추가하는 방법 결정</b> (👈 Click)</summary>
   <br>
   <div markdown="1">
-    <h3>문제점</h3>
+    <h2>문제점</h2>
     <b>1. DB 저장하는 방법 두 가지 중에서 결정해야 한다.</b>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/855d6b07-d3a9-46a6-b4f0-b76882b8e316" alt="등록 모달창">
     <ol>
@@ -559,7 +559,7 @@ DB와 ERD <br>
       </ul>
     </ol>
     <br>
-    <h3>해결방안</h3>
+    <h2>해결방안</h2>
     <b>1. 효율적인 리소스 사용을 위해 두 번째 방법을 택했다.</b>
     <ul>
       고려 사항은 다음과 같다.
@@ -573,9 +573,20 @@ DB와 ERD <br>
   <summary>트러블슈팅2: <b>수입검사 - DB 저장 순서</b> (👈 Click)</summary>
   <br>
   <div markdown="1">
-    <h3>문제점</h3>
+    <h2>문제점</h2>
     <b>1. [등록] 버튼을 한 번 누를 시, 3개의 테이블에 DB를 저장해야 한다.</b>
-    <h4>품질검사 테이블[quality_inspection]</h4>
+    <ul>
+      <li>품질검사 테이블[quality_inspection]</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/52cb980d-201a-47d2-b6cf-68e46849ac48" alt="품질검사 테이블">
+      <li>계약 테이블[contract]</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/c6709a32-170f-4248-98d2-ebb76e2f44c7" alt="계약 테이블">
+      <li>재고 테이블[inventory]</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/04d80235-0d10-4d66-b89d-d7b5f3d6ff9b" alt="재고 테이블">
+    </ul>
+    <h2>해결방안</h2>
+    <b>1. 트랜잭션 사용</b>
+    <h3>3개의 테이블과 컬럼은 다음과 같다.</h3>
+    <h3>품질검사 테이블[quality_inspection]</h3>
     <b>기존 데이터가 없으므로, 모달창에 입력했던 내용을 INSERT</b>
     컬럼은 다음과 같다.
     <ol>
@@ -598,9 +609,43 @@ DB와 ERD <br>
       </ul>
       <li>비고</li>
     </ol>
-    <h3>해결방안</h3>
-    <b>1. 트랜잭션 사용</b>
-    
+    <h3>계약 테이블[contract]</h3>
+    <b>기존 데이터가 있는데 특정 컬럼에만 값을 넣으므로, UPDATE</b>
+    <ol>
+      <li>실제 수량</li>
+      <ul>
+        <li>검사수량(qi_inspection_quantity)와 같은 값을 넣어야 함</li>
+      </ul>
+      <li>실제 입고일</li>
+      <ul>
+        <li>검사기록날짜(qi_date)와 같은 값을 넣어야 함</li>
+      </ul>
+    </ol>
+    <h3>재고 테이블[inventory]</h3>
+    <b>기존 데이터가 있는지 먼저 판단해야 함</b>
+    <ul>
+      <li>input 입력칸에 입력한 '계약번호(ct_id)'에 따른 '자재번호(m_id)'를 재고 테이블(inventory)에서 조회해야 함</li>
+      <b>기존 데이터가 없을 경우, INSERT</b>
+      <ol>
+        <li>자재ID</li>
+        <li>재고수량</li>
+        <ul>
+          <li>양품수량 값과 같은 값을 넣어야 함</li>
+        </ul>
+        <li>재고단위</li>
+        <ul>
+          <li>계약 테이블에서 계약ID가 같은 단위(ct_unit)와 같은 값을 넣어야 </li>
+        </ul>
+      </ol>
+      <b>기존 테이터가 있을 경우, UPDATE</b>
+      모달창에서 입력된 정보 중, [자재번호]와 같은 'inv_material_id'가 있다면,
+      <ol>
+        <li>재고수량(inv_quantity)</li>
+        <ul>
+          <li>[기존의 재고수량] + [양품수량]</li>
+        </ul>
+      </ol>
+    </ul>
   </div>
 </details>
 <br><br>
