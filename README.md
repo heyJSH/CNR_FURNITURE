@@ -548,7 +548,9 @@ DB와 ERD <br>
       <li>수입검사관리 - 불량등록</li>
       <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/3e8519cc-85f7-4099-9e56-b8bc8154670c" alt="수입검사 불량등록 자동채우기">
       <li>공정검사관리 - 불량등록</li>
-      
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/db5da4cf-8d89-4202-9c61-6614ded6d578" alt="공정검사 불량등록 자동채우기">
+      <li>출하검사관리 - 불량등록</li>
+      <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/9767e513-fc97-4bb1-9c20-0f46c1d622e7" alt="출하검사 불량등록 자동채우기">
     </ul>
 </details>
 
