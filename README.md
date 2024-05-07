@@ -524,7 +524,7 @@ DB와 ERD <br>
 <br><br>
 
 ## 📽️ 작동 영상
-[[📹 작동 영상]](https://drive.google.com/file/d/14c85jaoTqrBOE-O2lGiCIBeEPzez1WUi/view?usp=sharing)
+[[📹 작동 영상]](https://drive.google.com/file/d/1XMyq7nY6RMWWIbY-3hHvlq5u0yq_x1Qo/view?usp=sharing)
 
 <br><br>
 
