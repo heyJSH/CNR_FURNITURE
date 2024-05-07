@@ -569,6 +569,7 @@ DB와 ERD <br>
     </ul>
   </div>
 </details>
+
 <details>
   <summary>트러블슈팅2: <b>수입검사 - DB 저장 순서</b> (👈 Click)</summary>
   <br>
@@ -585,6 +586,7 @@ DB와 ERD <br>
     </ul>
     <h2>해결방안</h2>
     <b>1. 트랜잭션 사용</b>
+    <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/cb289c59-ba19-4005-b2ff-5efc00e81b42 alt="트랜잭션">
     <h3>3개의 테이블과 컬럼은 다음과 같다.</h3>
     <h3>품질검사 테이블[quality_inspection]</h3>
     <b>기존 데이터가 없으므로, 모달창에 입력했던 내용을 INSERT</b>
