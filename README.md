@@ -510,7 +510,7 @@
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/a855aab8-b4a0-4000-8a88-c0712e241524" alt="공정불량실적1">
   </ul>
   <br>
-  <h3>재관리 - 제품재고조회</h3>
+  <h3>재고관리 - 제품재고조회</h3>
   <ul>
     <li>제품 재고를 검색 및 조회할 수 있다.</li>
     <img src="https://github.com/heyJSH/CNR_FURNITURE/assets/150403977/bad036c2-681d-4342-8ce7-14a8c098b338" alt="제품재고조회">
