@@ -42,7 +42,7 @@
   - **ORM**: Mybatis
   - **DevOps**: Maven, Git, GitHub
   - **Tools**: Discord, GoogleDrive, StarUML
-### 🧑‍🤝‍🧑 멤버 구성
+### 🧑‍🤝‍🧑 멤버 구성 [저는 정수하 입니다!]
 |팀원명|프로필|담당업무|
 |---|---|---|
 |[배지현<br>(팀장)](https://github.com/jihyeon00)|<p align="center"><img src="https://avatars.githubusercontent.com/u/120089047?v=4" width="100"></p>|회의 진행 및 일정·팀원 관리, 전체 설계 담당<br>RDBMS관리(OracleDB), 테이블 설계, 샘플데이터작성, ERD작성, 유즈케이스 작성<br>생산관리, 작업관리, 작업자관리|
